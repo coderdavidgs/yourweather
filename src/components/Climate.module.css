@@ -1,0 +1,315 @@
+@media screen and (min-width: 1024px){
+    .container{
+        display: flex;
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .data{
+        width: 50%;
+        border-right: 1px solid #9A9595;
+        min-height: 80vh;
+    }
+
+    .data h2{
+        font-size: 54px;
+        font-weight: normal;
+    }
+
+    .data span{
+        background-color: #125ED1;
+        color: #fff;
+        padding: 10px;
+        font-size: 54px;
+        border-radius: 10px;
+    }
+
+    .data input{
+        width: 30vw;
+        background-color: #C8DAF6;
+        height: 5vh;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 34px;
+        margin-top: 5px;
+    }
+
+
+    .data button{
+        display: block;
+        background-color: #125ED1;
+        color: #fff;
+        border: none;
+        font-size: 34px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 10vw;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+        margin-top: 5px;
+    }
+
+    .data button:hover{
+        background-color: #C8DAF6;
+        color: #125ED1;
+        transition: .5s;
+    }
+
+    .results{
+        margin-left: 15px;
+    }
+
+    .buttonList button{
+        display: inline;
+        background-color: #125ED1;
+        color: #fff;
+        border: none;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 10vw;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+    .buttonList button:hover{
+        background-color: #C8DAF6;
+        color: #125ED1;
+        transition: .5s;
+    }
+
+    .results h2{
+        font-size: 54px;
+        font-weight: normal;
+    }
+
+    .results ul{
+        list-style-type: none;
+        font-size: 34px;
+        color: #6AC75B;
+    }
+
+    .results ul li{
+        margin-top: 10px;
+    }
+
+    .results ul li span{
+        color: black    ;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container{
+        display: flex;
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    .data{
+        width: 50%;
+        border-right: 1px solid #9A9595;
+        min-height: 80vh;
+    }
+
+    .data h2{
+        font-size: 54px;
+        font-weight: normal;
+    }
+
+    .data span{
+        background-color: #125ED1;
+        color: #fff;
+        padding: 10px;
+        font-size: 54px;
+        border-radius: 10px;
+    }
+
+    .data input{
+        width: 30vw;
+        background-color: #C8DAF6;
+        height: 5vh;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 34px;
+        margin-top: 5px;
+    }
+
+
+    .data button{
+        display: block;
+        background-color: #125ED1;
+        color: #fff;
+        border: none;
+        font-size: 34px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 20vw;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+        margin-top: 5px;
+    }
+
+    .data button:hover{
+        background-color: #C8DAF6;
+        color: #125ED1;
+        transition: .5s;
+    }
+
+    
+    .results{
+        margin-left: 15px;
+    }
+
+    .buttonList button{
+        display: inline;
+        background-color: #125ED1;
+        color: #fff;
+        border: none;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 15vw;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+    .buttonList button:hover{
+        background-color: #C8DAF6;
+        color: #125ED1;
+        transition: .5s;
+    }
+
+    .results h2{
+        font-size: 54px;
+        font-weight: normal;
+    }
+
+    .results ul{
+        list-style-type: none;
+        font-size: 34px;
+        color: #6AC75B;
+    }
+
+    .results ul li{
+        margin-top: 10px;
+    }
+
+    .results ul li span{
+        color: black    ;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .container{
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .data{
+        min-height: 80vh;
+    }
+
+    .data h2{
+        font-size: 54px;
+        font-weight: normal;
+    }
+
+    .data span{
+        background-color: #125ED1;
+        color: #fff;
+        padding: 10px;
+        font-size: 54px;
+        border-radius: 10px;
+    }
+
+    .data input{
+        width: 80vw;
+        background-color: #C8DAF6;
+        height: 5vh;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 34px;
+        margin-top: 5px;
+    }
+
+
+    .data button{
+        display: block;
+        background-color: #125ED1;
+        color: #fff;
+        border: none;
+        font-size: 34px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 40vw;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+        margin-top: 5px;
+        margin-left: 30%;
+    }
+
+    .data button:hover{
+        background-color: #C8DAF6;
+        color: #125ED1;
+        transition: .5s;
+    }
+
+    
+    .results{
+        margin-left: 15px;
+    }
+
+    .buttonList button{
+        display: inline;
+        background-color: #125ED1;
+        color: #fff;
+        border: none;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 20vw;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+    .buttonList button:hover{
+        background-color: #C8DAF6;
+        color: #125ED1;
+        transition: .5s;
+    }
+
+    .results h2{
+        font-size: 54px;
+        font-weight: normal;
+    }
+
+    .results ul{
+        list-style-type: none;
+        font-size: 34px;
+        color: #6AC75B;
+    }
+
+    .results ul li{
+        margin-top: 10px;
+    }
+
+    .results ul li span{
+        color: black    ;
+    }
+}

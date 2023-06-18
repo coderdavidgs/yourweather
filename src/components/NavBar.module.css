@@ -1,0 +1,10 @@
+.container{
+    background-color: #C8DAF6;
+    min-height: 10vh;
+    font-size: 64px;
+    text-align: center;
+}
+
+.secondName{
+    color: #125ED1;
+}
